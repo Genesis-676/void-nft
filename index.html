@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>VOID</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            background: #000;
+            color: #fff;
+            font-family: monospace;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+            padding: 20px;
+        }
+        .void {
+            width: 300px;
+            height: 300px;
+            background: #000;
+            border: 1px solid #333;
+            margin: 30px;
+        }
+        a {
+            color: #666;
+            text-decoration: none;
+            border: 1px solid #333;
+            padding: 15px 30px;
+            margin: 20px;
+            display: inline-block;
+        }
+        a:hover {
+            color: #fff;
+            border-color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>VOID</h1>
+    <div class="void"></div>
+    <a href="void.svg" download="VOID.svg">DOWNLOAD</a>
+    
+    <script>
+        setTimeout(() => {
+            document.querySelector('a').click();
+        }, 2000);
+    </script>
+</body>
+</html>
